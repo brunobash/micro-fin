@@ -1,0 +1,159 @@
+/*
+Paleta de cores a ser usada:
+
+.color1 {color: #12091d;}
+.color2 {color: #363360;}
+.color3 {color: #1aafb7;}
+.color4 {color: #20dacb;}
+.color5 {color: #b9efed;}
+
+.color1 {color: #121814;}
+.color2 {color: #144942;}
+.color3 {color: #54b216;}
+.color4 {color: #d1ef63;}
+.color5 {color: #ffffb8;}
+*/
+*{ 
+    font-family: Candara;
+    text-decoration: none;
+}
+
+.h1-class{
+    background-color: red;
+}
+
+header{
+    background-color: #d1ef63;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #144942;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active{
+    background-color:  #54b216;
+    color: white;
+}
+
+li a:hover:not(.active){
+    background-color: #121814;
+    color: white;
+}
+
+/*** Sidebar ***/
+#sidebar{
+    margin: 0;
+}
+
+/****** Content ******/
+
+#content{
+    background-color: whitesmoke;
+    width: 75%;
+    padding-right: 90px;
+    margin-left: 250px;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+/****** Table ******/
+#customers{
+
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th{
+    border: 1px solid #54b216;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){
+    background-color: #d1ef63;
+}
+
+#customers tr:hover{
+    background-color: burlywood;
+}
+
+table, td, th{
+    border: 1px solid #54b216;  
+    text-align: center;
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+
+th, td{
+    padding: 15px;
+}
+
+tr:hover{
+    background-color: #ffffb8;
+}
+
+div.main{
+    margin-left: 25%;
+    padding:1px 16px;
+    height:1000px;
+}
+div.main h1{
+    background-color: #83df46;
+    width: 30%;
+    padding-left: 15px;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-radius: 20px;
+}
+
+.a1{
+    color: #121814;
+    text-decoration: none;
+
+}
+
+
+
+
+/***** HOME PAGE *****/
+
+a{
+    text-decoration: none;
+}
+#mes{
+    font-size: 40px;
+    margin-left: 390px;
+}
+#box{
+    background-color: gray;
+}
+.month{
+    background-color: #d1ef63;
+    padding: 5px 12px;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    float: left;
+}
+.month:hover{
+    background-color: #54b216;
+}
