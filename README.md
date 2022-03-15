@@ -1,1 +1,1 @@
-# Controle financeiro para revendedoras de cosméticos
+# Controle financeiro 
