@@ -157,3 +157,31 @@ a{
 .month:hover{
     background-color: #54b216;
 }
+
+/*** form popup ***/
+
+/* button that is used to open the form*/
+.open-button{
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280;
+}
+
+/*the popup form - hidden by default*/
+.form-popup{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+/*Form container styles*/
