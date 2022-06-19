@@ -1,10 +1,6 @@
 <?php
-/**
- * Leia: https://alexandrebbarbosa.wordpress.com/2019/04/17/phpconstruir-um-sistema-de-rotas-para-mvc-primeira-parte/
- * para aprender sobre rotas. 
-**/
 
-require_once __DIR__ . '/routes/RouteSwitch.php';
+require_once __DIR__ . '/RouteSwitch.php';
 
 
 class Router extends RouteSwitch {
