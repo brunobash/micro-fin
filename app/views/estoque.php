@@ -5,69 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/public/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Estoque</title>
-    <style>
-        h1{
-            margin: auto;
-            margin-left: 600px;
-        }
-      
-        .title{
-            background-color: cadetblue;
-        }
-        .adic{
-            text-align: center;
-            margin:0px 0px 10px 300px ;
-            margin-top: 10px;
-            width: 50px;
-            background-color: black;
-            color: white;   
-            font-size: 15pt;
-            border-radius: 5px;
-        }
-        .adic:hover{
-            background-color: gray;
-            cursor: pointer;
-        }
-        .delete{
-            display: block;
-            background-color: black;
-            width: 25px;
-            text-align: center;
-            padding: 5px;
-            border-radius: 5px;
-        }
-        #del-minus{
-            color: white;
-        }
-        .delete:hover{
-            background-color: gray;
-            cursor: pointer;
-        }
-        .rodape:hover{
-            background-color: burlywood;
-        }
-        b{
-            background-color: whitesmoke;
-            border-radius: 3px;
-            padding: 2px;
-        }
-        h3{
-            color: #12091d;
-            width: 150px;
-            margin: 50px auto ;
-            padding: 10px;
-            text-align: center;
-            border-radius: 5px;
-        }
-        #verde{
-            background-color: greenyellow;
-        }
-        #vermelho{
-            background-color: red;
-        }
-    </style>
 </head>
 <body>
     <div id="sidebar">

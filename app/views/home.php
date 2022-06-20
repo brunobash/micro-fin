@@ -6,33 +6,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/styles.css">
+    <link rel="stylesheet" href=".../public/css/styles.css">
     <title>Home Page</title>
-    <style>
-        
-        a{
-            text-decoration: none;
-        }
-        #mes{
-            font-size: 40px;
-            margin-left: 390px;
-        }
-        #box{
-            background-color: gray;
-        }
-        .month{
-            background-color: #d1ef63;
-            padding: 5px 12px;
-            width: 100px;
-            text-align: center;
-            margin: 10px;
-            border-radius: 5px;
-            float: left;
-        }
-        .month:hover{
-            background-color: #54b216;
-        }
-    </style>
 </head>
 
 <body>
@@ -42,11 +17,11 @@
 
     <div class="sidebar">
         <ul>
-            <li><a class="active" href="home.html">Home</a></li>
-            <li><a href="clientes.html">Clientes</a></li>
-            <li><a href="contasPagar.html">Contas a pagar</a></li>
-            <li><a href="estoque.html">Estoque</a></li>
-            <li><a href="pagamentos.html">Pagamentos</a></li>
+            <li><a class="active" href="home.php">Home</a></li>
+            <li><a href="clientes.php">Clientes</a></li>
+            <li><a href="contasPagar.php">Contas a pagar</a></li>
+            <li><a href="estoque.php">Estoque</a></li>
+            <li><a href="pagamentos.php">Pagamentos</a></li>
         </ul>
     </div>
     <div class="main">
