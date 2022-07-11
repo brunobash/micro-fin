@@ -1,3 +1,3 @@
-# Controle financeiro
+# MicroFin
 
 em desenvolvimento...
